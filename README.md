@@ -1,3 +1,15 @@
+
+## This project developed as part of the Meta Front-End Developer Course ##
+
+demo https://little-lemon-restaurant-five.vercel.app/
+
+
+## Features Showcase ## 
+- **User Authentication:** Experience the basic login/sign up functionality.
+- **Basket Interaction:** Test the ability to add items to your basket.
+- **Responsive Design:** Explore how the website adapts to different screen sizes.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
