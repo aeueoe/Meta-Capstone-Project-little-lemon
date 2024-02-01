@@ -3,20 +3,17 @@ import { Link } from "react-router-dom";
 import "./Booking.css";
 
 const BookingConfirmation = () => {
-  // State to store the data from local storage
+
   const [localStorageData, setLocalStorageData] = useState(null);
   const [submit, setSubmit] = useState(false);
 
-  // Effect to run when the component mounts
+
   useEffect(() => {
-    // Retrieve data from local storage
+
     const storedData = localStorage.getItem("formData");
 
-    // Update the state with the retrieved data
     setLocalStorageData(storedData ? JSON.parse(storedData) : null);
-  }, []); // Empty dependency array ensures the effect runs only once on mount
-
-  // Function to handle button click and delete session storage data
+  }, []); 
   const handleBackButtonClick = () => {
     // Remove the data from local storage
     localStorage.removeItem("formData");

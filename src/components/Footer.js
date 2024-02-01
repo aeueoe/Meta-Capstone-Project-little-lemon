@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+import React from "react-router-dom";
 import LogoFooter from "./icons_assets/logo_footer.webp";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 export default function Footer() {
   return (
@@ -82,6 +82,7 @@ export default function Footer() {
               className="text-decoration-none"
               href="https://github.com/aeueoe"
               target="_blank"
+              rel="noreferrer"
             >
               Coded by Julia Atamas
             </a>
