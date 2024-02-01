@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import bannerImgB from "./icons_assets/header_big.webp";
 import bannerImgS from "./icons_assets/header_s.webp";
 
