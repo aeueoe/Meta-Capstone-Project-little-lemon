@@ -10,7 +10,7 @@ export default function Header() {
         <div className="container m-0">
           <div className="row justify-content-between align-items-center">
             <div className="col-md-7 m-0 px-3">
-              <h1 className="mt-0 mb-2">Little Lemon Restaurant</h1>
+              <h1 className=" mb-2">Little Lemon Restaurant</h1>
               <h2>Chicago</h2>
               <p className="mt-4 mb-4">
                 We are a family-owned Mediterranean restaurant, focused on

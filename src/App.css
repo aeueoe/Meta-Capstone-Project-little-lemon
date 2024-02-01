@@ -251,3 +251,15 @@ footer a {
     margin: 0 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  header h1,
+  .about h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 2rem;
+  }
+  header h2 {
+    font-size: 2rem;
+  }
+}
