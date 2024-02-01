@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useBasket } from "./basketContext";
 
 const Card = ({ id, title, url, desc, price }) => {
