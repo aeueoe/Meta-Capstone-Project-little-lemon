@@ -1,29 +1,11 @@
-import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LogoFooter from "./icons_assets/logo_footer.webp";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-const Footer = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      setIsScrolled(scrollTop > 0);
-    };
-
-    // Add event listener for scroll
-    window.addEventListener("scroll", handleScroll);
-
-    // Remove the event listener when component unmounts
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+export default function Footer() {
   return (
-    <footer className={`mt-${isScrolled ? 5 : 0}`}>
+    <footer>
       <section className="mb-0 mt-0">
         <Row className="align-items-center">
           <Col md={4}>
@@ -108,6 +90,4 @@ const Footer = () => {
       </section>
     </footer>
   );
-};
-
-export default Footer;
+}

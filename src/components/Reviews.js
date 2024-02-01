@@ -147,6 +147,7 @@ const Reviews = () => {
           </Swiper>
         </Row>
       </Container>
+      <hr />
     </section>
   );
 };

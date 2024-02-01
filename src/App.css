@@ -222,7 +222,6 @@ header p {
 /* Footer */
 
 footer {
-  background-color: var(--secondary-light);
   font-family: var(--font-secondary);
   color: var(--primary-green);
 }
