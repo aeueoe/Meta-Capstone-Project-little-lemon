@@ -1,8 +1,7 @@
 
 ## This project developed as part of the Meta Front-End Developer Course ##
 
-demo https://little-lemon-restaurant-five.vercel.app/
-
+[Live App](https://little-lemon-restaurant-five.vercel.app/)
 
 ## Features Showcase ## 
 - **User Authentication:** Experience the basic login/sign up functionality.
